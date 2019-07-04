@@ -1,6 +1,18 @@
 # Moneyxchange
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.4.
+For responsive design [Angular Flex-Layout](https://github.com/angular/flex-layout)
+
+## About the project
+
+At the moment they only offer currency exchange for
+United States, that is, the exchange rate is only Euros to US Dollars.
+
+you can see the app [Here](https://flortello.github.io/moneyxchange/)
+
+Your web browser by default blocks Insecure Content on secure pages. When you visit a secure web page with insecure content, a shield icon may appear at the top right edge of your browser, along with a warning
+
+Please, you need load unsafe script for cosume the [API](http://data.fixer.io/api/latest?access_key=b9821724b1d6528eaa4c464fbb562a77)
 
 ## Development server
 
