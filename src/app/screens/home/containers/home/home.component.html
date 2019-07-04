@@ -1,0 +1,31 @@
+<div fxLayout="column">
+  <app-toolbar></app-toolbar>
+  <section>
+    <div
+      [formGroup]="form"
+      fxLayout="column"
+      fxLayoutAlign="center center"
+      fxLayoutGap="4rem"
+      fxFlex="100"
+    >
+      <div fxLayout="row" fxLayoutGap="4rem" fxLayout.xs="column">
+        <input
+          type="text"
+          [placeholder]="placeholderInput"
+          class="form-control"
+          formControlName="amount"
+          appNumber
+        />
+        <input
+          type="text"
+          [placeholder]="placeholderOutput"
+          class="form-control"
+          formControlName="output"
+          readonly
+        />
+      </div>
+      <button class="btn btn-info" (click)="onClick()">CALCULATE</button>
+    </div>
+  </section>
+  <app-footer></app-footer>
+</div>

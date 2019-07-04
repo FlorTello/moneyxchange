@@ -1,0 +1,26 @@
+@import 'variables/color';
+section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem;
+  background: $grey-00;
+  border-top: 3px solid $grey-02;
+  .footer-item {
+    .title-item {
+      background: $grey-03;
+      height: 2rem;
+      width: 7rem;
+    }
+    .info-item {
+      background: $grey-02;
+      height: 1rem;
+      width: 10rem;
+    }
+    .info-icon {
+      background: $grey-02;
+      height: 4rem;
+      width: 4rem;
+    }
+  }
+}

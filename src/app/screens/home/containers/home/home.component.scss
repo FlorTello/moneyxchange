@@ -1,0 +1,39 @@
+@import 'variables/color';
+
+section {
+  border: 3px solid $grey-02;
+  padding: 2rem;
+  height: 60vh;
+  background: $grey-00;
+  form {
+    input {
+      width: 30rem;
+      &:focus {
+        border: none;
+      }
+    }
+    button {
+      width: 24rem;
+      height: 4.5rem;
+    }
+  }
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: $grey-00;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: $grey-00;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: $grey-00;
+}
+:-ms-input-placeholder {
+  text-align: center;
+  color: $grey-00;
+}

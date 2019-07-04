@@ -1,0 +1,16 @@
+@import 'variables/color';
+section {
+  margin: 2rem 0;
+  #circle {
+    width: 7rem;
+    height: 7rem;
+    background: $grey-02;
+    border-radius: 50%;
+  }
+  .option {
+    width: 10rem;
+    background: $grey-02;
+    height: 2.5rem;
+    border-radius: 4px;
+  }
+}
